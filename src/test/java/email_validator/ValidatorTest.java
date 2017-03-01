@@ -5,7 +5,6 @@ import org.junit.Test;
 
 	public class ValidatorTest {
 		
-	   String message = "Hello World";	
 	   Validator v = new Validator();
 
 	   @Test
