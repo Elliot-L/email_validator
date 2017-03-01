@@ -16,7 +16,7 @@ import org.junit.Test;
 		   boolean t =  true;
 		   
 		   assertEquals(t, v.validate(pass));
-		   assertEquals(t, v.validate(fail));
+		   assertEquals(f, v.validate(fail));
 	   }
 	}
 
