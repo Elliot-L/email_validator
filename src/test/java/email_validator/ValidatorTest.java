@@ -1,7 +1,6 @@
 package email_validator;
 
-public class ValidatorTest {
-	import org.junit.Test;
+import org.junit.Test;
 	import static org.junit.Assert.assertEquals;
 
 	public class ValidatorTest {
@@ -21,4 +20,4 @@ public class ValidatorTest {
 		   assertEquals(t, v.validate(fail));
 	   }
 	}
-}
+
