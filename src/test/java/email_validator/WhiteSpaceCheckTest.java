@@ -14,8 +14,8 @@ public class WhiteSpaceCheckTest {
 	
 	@Test
 	public void testWhiteSpace(){
-		assertEquals(p, check.spaceCheck(pass));
-		assertEquals(f, check.spaceCheck(fail));
+		assertEquals(p, check.checkWhiteSpace(pass));
+		assertEquals(f, check.checkWhiteSpace(fail));
 
 	}
 }
