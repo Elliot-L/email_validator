@@ -7,7 +7,7 @@ public class MultipleAtTest {
 	MultipleAtCheck check = new MultipleAtCheck();
 	
 	@Test
-	public boolean checkMultipleAt(){
+	public void testMultipleAt(){
 		
 		String pass = "pass@pass";
 		String fail = "fail@fail@";
